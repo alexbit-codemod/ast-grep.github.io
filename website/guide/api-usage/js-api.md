@@ -191,7 +191,7 @@ export class SgNode {
 
 ```ts{3}
 const ast = js.parse("console.log('hello world')")
-root = root.root()
+root = ast.root()
 root.text() // will return "console.log('hello world')"
 ```
 
